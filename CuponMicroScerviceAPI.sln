@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34330.188
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CuponMicroScerviceAPI", "CuponMicroScerviceAPI\CuponMicroScerviceAPI.csproj", "{6F16E48D-8E3F-4D53-8FB6-6B5E8FB95C7F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Service", "Service", "{5C22849D-9D73-4D0F-BB21-AD2DA7A7EB44}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FrontEnd", "FrontEnd", "{8B024406-FE83-4992-A5A8-297DF17E9E62}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Gateway", "Gateway", "{B90E7EA1-0924-47C6-B072-D4F2EC462380}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Integration", "Integration", "{ED64AA65-EC6A-4ED0-9E3E-ED76C3315E93}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CuponMicroService.WebApp", "CuponMicroService.WebApp\CuponMicroService.WebApp.csproj", "{0A63E4DD-DF1F-4BFA-BAA2-4AEADA6476CB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6F16E48D-8E3F-4D53-8FB6-6B5E8FB95C7F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F16E48D-8E3F-4D53-8FB6-6B5E8FB95C7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F16E48D-8E3F-4D53-8FB6-6B5E8FB95C7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F16E48D-8E3F-4D53-8FB6-6B5E8FB95C7F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A63E4DD-DF1F-4BFA-BAA2-4AEADA6476CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A63E4DD-DF1F-4BFA-BAA2-4AEADA6476CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A63E4DD-DF1F-4BFA-BAA2-4AEADA6476CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A63E4DD-DF1F-4BFA-BAA2-4AEADA6476CB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0A63E4DD-DF1F-4BFA-BAA2-4AEADA6476CB} = {8B024406-FE83-4992-A5A8-297DF17E9E62}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C18FC58C-F26B-4645-8C07-0A3D80E5804A}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,6 @@
+@CuponMicroScerviceAPI_HostAddress = http://localhost:5174
+
+GET {{CuponMicroScerviceAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
